@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "es2015",
+    "lib": [
+      "es2017",
+      "dom",
+      "dom.iterable"
+    ],
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "plugins": [
+      {
+        "name": "ts-lit-plugin"
+      }
+    ],
+    "rootDir": "./src",
+    "outDir": "./build"
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
